@@ -1,0 +1,11 @@
+{
+  "version": "3.7",
+  "services": {
+    "python-server": {
+      "container_name": "python-server",
+      "image": "python-server-image",
+      "ports": [ "9091:3000" ],
+      "volumes": [ "../:/srv/server" ]
+    }
+  }
+}
